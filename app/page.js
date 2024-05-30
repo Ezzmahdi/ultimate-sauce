@@ -1,4 +1,6 @@
 import PageHook from "@/app/pageHook";
+import Head from 'next/head';
+
 
 function page() {
   return (
