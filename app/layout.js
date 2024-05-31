@@ -3,9 +3,12 @@ import "./globals.css";
 
 import Headpage from "./Header/page";
 
+ 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <link rel="icon" href="/favicon.ico" />
+        <title>The Ultimate Sauce</title>
       <body>
         <Theming>
           <Headpage />
