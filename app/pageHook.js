@@ -94,7 +94,7 @@ function PageHook() {
       if (res.ok) {
         reset();
         handleOpenModel();
-
+        window.location.href = "https://mahdizzzy.gumroad.com/l/ultimatesauce";
       }
 
       if (!res.ok) {
