@@ -94,6 +94,7 @@ function PageHook() {
       if (res.ok) {
         reset();
         handleOpenModel();
+
       }
 
       if (!res.ok) {
@@ -169,8 +170,9 @@ function PageHook() {
             </h1>
             <p className="max-w-[600px]  leading-7 text-center text-[16px] bg-clip-text text-transparent dark:bg-gradient-to-br bg-gradient-to-tr dark:from-white from-black to-neutral-600 dark:to-neutral-700 mx-auto ">
               Discover all the possible strategies, templates, and knowledge gathered from the internet 
-              All in one spot. Get our
-              Guide and start your successful socail media journey!
+              All in one spot. 
+              Get our
+              Guide and start your successful social media journey!
             </p>
             {errors.email && (
               <p className="border dark:border-white/25 border-[#704705] flex gap-x-3 items-center p-2 pl-5 max-w-md bg-gradient-to-r from-10% dark:from-[#704705] text-[#3a2503] from-[#f5a524] via-30% dark:via-black dark:to-black to-100% to-[#704705] mx-auto rounded-md dark:text-white ">
