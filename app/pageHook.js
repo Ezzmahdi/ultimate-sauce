@@ -86,6 +86,7 @@ function PageHook() {
   };
 
   const onSubmit = async (data) => {
+    window.location.href = "https://mahdizzzy.gumroad.com/l/ultimatesauce";
     try {
       let res = await fetch("/api/email", {
         method: "POST",
@@ -94,7 +95,6 @@ function PageHook() {
       if (res.ok) {
         reset();
         handleOpenModel();
-        window.location.href = "https://mahdizzzy.gumroad.com/l/ultimatesauce";
       }
 
       if (!res.ok) {
